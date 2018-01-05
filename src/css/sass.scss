@@ -1,0 +1,24 @@
+//变量
+$padding: 0.75rem;
+
+$red: #ff552e;
+$borderColor: #f3f3f3;
+
+$color1: #aaaaaa;
+
+
+// 混合器
+@mixin clear {
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  clear: both;
+}
+@mixin delta {
+  width: 0;
+  height: 0;
+  border-top: 0.2rem solid transparent;
+  border-left: 0.25rem solid #d9d9d9;
+  border-bottom: 0.2rem solid transparent;
+}
